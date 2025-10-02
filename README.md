@@ -1,8 +1,55 @@
 # Towel_Folding with Imitataion_Learning 
 
-## 실행방법
+## 1. 모방학습 데이터 수집
 ### Terminal 1
 ```
+ssh root@192.168.0.138
+docker exec -it open_manipulator bash
+source /workspace/colcon_ws/install/setup.bash
+ros2 launch open_manipulator_bringup ai_teleoperation.launch.py
+```
+
+### Terminal 2
+```
+source /opt/ros/jazzy/setup.bash
+ros2 launch realsense2_camera rs_launch.py config_file:="realsense_config.yaml"
+```
+
+### Terminal 3
+```
+source /opt/ros/jazzy/setup.bash
+rqt
+```
+
+### Terminal 4
+```
+source /opt/ros/jazzy/setup.bash
+cd ~/colcon_ws
+source install/setup.bash
+ros2 launch ros2_lerobot create_datasheet.launch.py
+```
+
+## 2. 수집한 데이터 train & evaluation
+
+### Visualize
+```
+conda activate mani
+
+python -m lerobot.scripts.visualize_dataset  
+
+--repo-id omy_real  -- root /home/dam/colcon_ws/src/ros2_lerobot/demo_data/towel_folding -- episode- index 0
+```
+
+### Train & Evalaution
+```
+conda activate mani
+python train.py 
+python evaluation.py
+```
+
+## 3. 모방학습 실행
+
+### Terminal 1
 ssh root@192.168.0.138
 docker exec -it open_manipulator bash
 source /workspace/colcon_ws/install/setup.bash
