@@ -1,5 +1,10 @@
 # Towel_Folding with Imitataion_Learning 
 
+### Development Environment 
+- OS: Ubuntu 24.04 LTS (Detail: Linux ubuntu 6.11.0-25-generic #25~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Apr 15 17:20:50 UTC 2 x86_64 x86_64 x86_64 GNU/Linux)
+- ROS2: Jazzy
+- Python: 3.12.3
+
 ## 1. 모방학습 데이터 수집
 
 ### Terminal 1
