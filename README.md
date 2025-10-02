@@ -5,6 +5,10 @@
 - ROS2: Jazzy
 - Python: 3.12.3
 
+### Reference
+- https://github.com/huggingface/lerobot
+- https://github.com/ROBOTIS-GIT/open_manipulator/tree/main/open_manipulator_bringup/open_manipulator_bringup
+
 ## 1. 모방학습 데이터 수집
 
 ### Terminal 1
