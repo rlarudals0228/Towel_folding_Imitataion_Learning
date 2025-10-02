@@ -35,9 +35,7 @@ ros2 launch ros2_lerobot create_datasheet.launch.py
 ### Visualize
 ```
 conda activate mani
-
 python -m lerobot.scripts.visualize_dataset  
-
 --repo-id omy_real  -- root /home/dam/colcon_ws/src/ros2_lerobot/demo_data/towel_folding -- episode- index 0
 ```
 
