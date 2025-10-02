@@ -1,6 +1,7 @@
 # Towel_Folding with Imitataion_Learning 
 
 ## 1. 모방학습 데이터 수집
+
 ### Terminal 1
 ```
 ssh root@192.168.0.138
