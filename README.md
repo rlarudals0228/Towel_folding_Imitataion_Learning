@@ -7,7 +7,7 @@
 
 ### Reference
 - https://github.com/huggingface/lerobot
-- https://github.com/ROBOTIS-GIT/open_manipulator/tree/main/open_manipulator_bringup/open_manipulator_bringup
+- https://github.com/ROBOTIS-GIT/open_manipulator
 
 ## 1. 모방학습 데이터 수집
 
