@@ -51,6 +51,7 @@ python evaluation.py
 ## 3. 모방학습 실행
 
 ### Terminal 1
+```
 ssh root@192.168.0.138
 docker exec -it open_manipulator bash
 source /workspace/colcon_ws/install/setup.bash
