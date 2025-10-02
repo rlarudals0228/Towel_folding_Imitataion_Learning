@@ -1,1 +1,38 @@
-# Imitataion_Learning
+# Towel_Folding with Imitataion_Learning 
+
+## 실행방법
+### Terminal 1
+```
+ssh root@192.168.0.138
+docker exec -it open_manipulator bash
+source /workspace/colcon_ws/install/setup.bash
+ros2 launch open_manipulator_bringup ai_inference.launch.py
+```
+
+### Terminal 2
+```
+source /opt/ros/jazzy/setup.bash
+ros2 launch realsense2_camera rs_launch.py config_file:="realsense_config.yaml"
+```
+
+### Termianl 3
+```
+cd colcon_ws
+source /opt/ros/jazzy/setup.bash
+source install/setup.bash
+ros2 run ros2_lerobot realsense_towel_metrics --   --color /camera/camera/color/image_rect_raw   --depth /camera/camera/depth/image_rect_raw   --info  /camera/camera/color/camera_info   --rect-thr 0.85 --std-thr-mm 7.0 --range-thr-mm 18.0
+```
+
+### Terminal 4
+```
+source /opt/ros/jazzy/setup.bash
+rqt
+```
+
+### Terminal 5
+```
+source /opt/ros/jazzy/setup.bash
+cd ~/colcon_ws
+source install/setup.bash
+ros2 launch ros2_lerobot inference_service.launch.py
+```
