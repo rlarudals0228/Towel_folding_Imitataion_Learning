@@ -40,9 +40,9 @@ def generate_launch_description():
             executable='realsense_towel_metrics',
             output='screen',
             arguments=[
-                '--color', '/camera/camera/color/image_rect_raw',
-                '--depth', '/camera/camera/depth/image_rect_raw',
-                '--info', '/camera/camera/depth/camera_info',
+                '--color', '/camera/external_camera/color/image_rect_raw',
+                '--depth', '/camera/external_camera/depth/image_rect_raw',
+                '--info', '/camera/external_camera/depth/camera_info',
                 '--rect-thr', '0.85',
                 '--std-thr-mm', '7.0',
                 '--range-thr-mm', '17.0',
