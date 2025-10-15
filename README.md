@@ -77,7 +77,7 @@ ros2 launch realsense2_camera rs_launch.py \
   pointcloud.enable:=true
 ```
 
-### Termianl 3
+### Termianl 3 (수건 탐지 실행)
 ```
 cd colcon_ws
 source /opt/ros/jazzy/setup.bash
