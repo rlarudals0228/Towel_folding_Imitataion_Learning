@@ -14,7 +14,7 @@ def generate_launch_description():
             executable='inference_server',
             name='inference_server_node_flatten',
             parameters=[
-                {'config_name': 'towel_flattening_config.yaml'},
+                {'config_name': 'towel_final_flat_config.yaml'},
                 {'service_name': 'run_inference_towel_flattening'},
             ],
             output='screen'
@@ -24,7 +24,7 @@ def generate_launch_description():
             executable='inference_server',
             name='inference_node_folding',  
             parameters=[
-                {'config_name': 'towel_folding_config.yaml'},
+                {'config_name': 'towel_final_fold_config.yaml'},
                 {'service_name': 'run_inference_towel_folding'},
             ],
             output='screen'
@@ -40,7 +40,7 @@ def generate_launch_description():
             executable='realsense_towel_metrics',
             output='screen',
             arguments=[
-                '--color', '/camera/external_camera/color/image_rect_raw',
+                '--color', '/camera/external_camera/color/image_raw',
                 '--depth', '/camera/external_camera/depth/image_rect_raw',
                 '--info', '/camera/external_camera/depth/camera_info',
                 '--rect-thr', '0.85',
