@@ -81,6 +81,7 @@ ros2 launch realsense2_camera rs_launch.py \
 ```
 cd colcon_ws
 source /opt/ros/jazzy/setup.bash
+source install/setup.bash
 ros2 run ros2_lerobot realsense_towel_metrics -- \
   --color /camera/external_camera/color/image_raw \
   --depth /camera/external_camera/depth/image_rect_raw \
@@ -102,6 +103,7 @@ ros2 launch realsense2_camera rs_launch.py \
 ```
 source /opt/ros/jazzy/setup.bash
 source install/setup.bash
+rqt
 ```
 
 ### Terminal 6
