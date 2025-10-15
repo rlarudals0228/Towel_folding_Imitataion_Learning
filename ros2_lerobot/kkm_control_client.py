@@ -31,8 +31,8 @@ class InferenceACT(Node):
         self.pkg_root_path = os.path.join(os.path.dirname(current_file_path), '..')
 
         config_paths = {
-            'flatten': os.path.join(self.pkg_root_path, 'config', "towel_flattening_config.yaml"),
-            'fold': os.path.join(self.pkg_root_path, 'config', "towel_folding_config.yaml")
+            'flatten': os.path.join(self.pkg_root_path, 'config', "towel_final_flat_config.yaml"),
+            'fold': os.path.join(self.pkg_root_path, 'config', "towel_fianl_fold_config.yaml")
         }
 
         self.configs = {}
