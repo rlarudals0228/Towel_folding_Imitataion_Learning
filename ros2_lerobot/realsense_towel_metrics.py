@@ -265,10 +265,10 @@ class NodeTowel(Node):
             rect_iou, rect_area, _, box = compute_rect_metrics(mask)
 
         # --- decision logic ---
-        
+        #decision = "fold"
         decision = "flatten"
         if detected and rect_iou >= self.rect_thr and hs["std"] <= self.std_thr_mm and hs["range_mm"] <= self.range_thr_mm:
-            decision = "fold"
+           decision = "fold"
         
         self.pub_decision.publish(String(data=decision))
         #self.get_logger().info(f"Decision: {decision}")
@@ -331,9 +331,9 @@ class NodeTowel(Node):
 # ---------------- Entrypoint ----------------
 def parse_args():
     p = argparse.ArgumentParser()
-    p.add_argument('--color', default='/camera/camera/color/image_rect_raw')
-    p.add_argument('--depth', default='/camera/camera/depth/image_rect_raw')
-    p.add_argument('--info',  default='/camera/camera/depth/camera_info')
+    p.add_argument('--color', default='/camera/external_camera/color/image_raw')
+    p.add_argument('--depth', default='/camera/external_camera/depth/image_rect_raw')
+    p.add_argument('--info',  default='/camera/external_camera/depth/camera_info')
     p.add_argument('--decimate', type=int, default=1)
     p.add_argument('--res-lo-mm', dest='res_lo_mm', type=float, default=1.5)
     p.add_argument('--res-hi-mm', dest='res_hi_mm', type=float, default=50.0)
