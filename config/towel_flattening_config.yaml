@@ -10,6 +10,6 @@ blending_horizon: 10 # 10
 len_delay_time: 5 # 5
 spline: "linear" # "quintic" or "cubic" or "linear"
 optimizer_solver: "CLARABEL"
-policy_dir: "towel_flattenings_777_model"
-dataset_dir: "towel_flattening"
+policy_dir: "towel_final_flat_model"
+dataset_dir: "towel_final_flat"
 enable_actions_publish: true
