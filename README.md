@@ -113,3 +113,7 @@ cd ~/colcon_ws
 source install/setup.bash
 ros2 launch ros2_lerobot inference_service_towel.launch.py
 ```
+## 📊 Results (결과)
+
+![Towel Simulation](OMY_towel.png)
+![Folding Demo](OMY_towel_folding.mp4.gif)
