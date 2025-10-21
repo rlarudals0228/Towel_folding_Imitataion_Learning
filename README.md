@@ -115,5 +115,5 @@ ros2 launch ros2_lerobot inference_service_towel.launch.py
 ```
 ## 📊 Results (결과)
 
-![Result_1](result_1.gif)
-![Result_2](result_2.gif)
+![Result_1](result/result_1.gif)
+![Result_2](result/result_2.gif)
