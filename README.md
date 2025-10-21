@@ -115,5 +115,5 @@ ros2 launch ros2_lerobot inference_service_towel.launch.py
 ```
 ## 📊 Results (결과)
 
-![Towel Simulation](OMY_towel.png)
-![Folding Demo](OMY_towel_folding.mp4.gif)
+![Result_1](result_1.gif)
+![Result_2](result_2.gif)
