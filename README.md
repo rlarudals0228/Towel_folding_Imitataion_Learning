@@ -15,7 +15,7 @@
 
 ## ⚙️ 시스템 구성  
 <p align="center">
-  <img width="1575" height="1181" alt="Image" src="https://github.com/user-attachments/assets/b499651c-3f75-4e4b-9aa8-5ddee834624d" />
+  <img width="1500" height="1000" alt="Image" src="https://github.com/user-attachments/assets/b499651c-3f75-4e4b-9aa8-5ddee834624d" />
 </p>
 
 - **로봇:** ROBOTIS OpenManipulator-Y (6자유도 + 1자유도 그리퍼)  
@@ -27,7 +27,7 @@
 
 ## 👁️ 비전 기반 상태 판단 파이프라인  
 <p align="center">
-  <img width="3150" height="1476" alt="Image" src="https://github.com/user-attachments/assets/330836ed-2784-49e8-b8eb-14b59c57d0f7" />
+  <img width="1500" height="1000" alt="Image" src="https://github.com/user-attachments/assets/330836ed-2784-49e8-b8eb-14b59c57d0f7" />
 </p>
 
 외부 RGB-D 카메라에서 획득한 깊이 데이터를 이용해  
@@ -72,15 +72,15 @@ TTCC 모델은 이 세 가지 지표를 임계값(threshold)과 비교하여 상
 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4d0f2fc2-ac3e-4900-8244-7489ceb34859" width="600" height="350" hspace="10">
-  <img src="https://github.com/user-attachments/assets/15cd8d9d-72e6-4e5a-9a5e-6aef17b2a0ce" width="600" height="350" hspace="10">
+  <img src="https://github.com/user-attachments/assets/4d0f2fc2-ac3e-4900-8244-7489ceb34859" width="500" height="350" hspace="10">
+  <img src="https://github.com/user-attachments/assets/15cd8d9d-72e6-4e5a-9a5e-6aef17b2a0ce" width="500" height="350" hspace="10">
 </p>
 
 <p align="center"><em>Fig. 1. 엄격한 임계값 적용 시 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/6678d806-efde-4484-96bb-bcb0153d4d70" width="600" height="350" hspace="10">
-  <img src="https://github.com/user-attachments/assets/386a2874-03c1-4ffc-afba-2c01179489f8" width="600" height="350" hspace="10">
+  <img src="https://github.com/user-attachments/assets/6678d806-efde-4484-96bb-bcb0153d4d70" width="500" height="350" hspace="10">
+  <img src="https://github.com/user-attachments/assets/386a2874-03c1-4ffc-afba-2c01179489f8" width="500" height="350" hspace="10">
 </p>
 
 <p align="center"><em>Fig. 2. 완화된 임계값 적용 시 </p>
