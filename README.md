@@ -75,8 +75,8 @@ TTCC 모델은 이 세 가지 지표를 임계값(threshold)과 비교하여 상
 ## 🤖 모방학습 기반 제어 구조  
 | 단계 | 설명 | 데이터 수 | 학습 방법 |
 |------|------|------------|-----------|
-| **Stage 1. Flattening** | 구겨진 수건을 펴고 대칭 정렬 | 60개 (DAgger 포함) | ACT (CVAE-Transformer) |
-| **Stage 2. Folding** | 평탄화된 수건을 반으로 접기 | 30개 | ACT (CVAE-Transformer) |
+| **Stage 1. Flattening** | 구겨진 수건을 펴고 대칭 정렬 | 60개 (DAgger 포함) | ACT |
+| **Stage 2. Folding** | 평탄화된 수건을 반으로 접기 | 30개 | ACT |
 
 - 텔레오퍼레이션 기반 시연 데이터 수집 (Leader–Follower 방식)  
 - HuggingFace `LeRobot` 프레임워크로 RGB-D + 관절 데이터 동기화  
