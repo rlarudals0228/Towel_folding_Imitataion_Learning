@@ -27,8 +27,10 @@
 
 ## 🎮 텔레오퍼레이션 기반 데이터 수집 (Teleoperation Data Collection)
 
-본 연구에서는 **Leader–Follower 구조**의 텔레오퍼레이션 시스템을 구축하여 로봇의 Flattening 및 Folding 시연 데이터를 수집했습니다.  
-사용자는 리더 장치를 직접 조작하여 목표 궤적을 수행하고, 팔 끝단의 관절 각도와 영상 데이터를 ROS2를 통해 실시간으로 기록합니다.
+본 연구에서는 **Leader–Follower 구조**의 텔레오퍼레이션 시스템을 구축하여 
+로봇의 Flattening 및 Folding 시연 데이터를 수집했습니다.  
+사용자는 리더 장치를 직접 조작하여 목표 궤적을 수행하고, 
+팔 끝단의 관절 각도와 영상 데이터를 ROS2를 통해 실시간으로 기록합니다.
 
 <p align="center">
  <img width="577" height="432" alt="Image" src="https://github.com/user-attachments/assets/b8380ccd-b06c-4e81-90e7-0dc143a3962e" />
