@@ -97,14 +97,6 @@ TTCC 모델은 이 세 가지 지표를 임계값(threshold)과 비교하여 상
 
 ---
 
-## 🧩 프로젝트 요약
-- **주제:** 비정형 물체(수건)의 장기 모방학습 기반 조작  
-- **핵심:** RGB-D 기반 정량 지표로 정책 전환 시점 결정  
-- **결과:** 로봇이 자율적으로 평탄화 ↔ 접기 단계를 전환하며 완전 자동 수행  
-- **특징:** MoveIt2 없이 Vision–Decision–Control 통합 구조  
-
----
-
 ## 🔧 개발 환경  
 | 항목 | 내용 |
 |------|------|
@@ -118,28 +110,12 @@ TTCC 모델은 이 세 가지 지표를 임계값(threshold)과 비교하여 상
 
 ---
 
-## 📚 연구 배경  
-본 프로젝트는 “**Tunable Terminal Condition Classification (TTCC) 기반 수건 접기 모방학습 시스템**”으로,  
-2025년 한국로봇학회 논문지(KROS)에 게재되었습니다.  
-(김경민 외, *Journal of Korea Robotics Society*, Vol. 20 No. 4, 2025)
-
----
-
 ## 📬 Contact  
 **김경민** (Kwangwoon University, Dept. of Robotics)  
 📧 rlarudals0228@naver.com  
 🔗 [GitHub Repository](https://github.com/rlarudals0228/Towel_folding_Imitataion_Learning)
 
 ---
-
-> “비정형 물체 조작에서 로봇이 ‘판단’을 스스로 하게 만드는 것” —  
-> 이 프로젝트는 단순한 제어 자동화를 넘어, **지능형 작업 전환**을 목표로 합니다.
-
-
-### Development Environment 
-- OS: Ubuntu 24.04 LTS (Detail: Linux ubuntu 6.11.0-25-generic #25~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Apr 15 17:20:50 UTC 2 x86_64 x86_64 x86_64 GNU/Linux)
-- ROS2: Jazzy
-- Python: 3.12.3
 
 ### Reference
 - https://github.com/huggingface/lerobot
