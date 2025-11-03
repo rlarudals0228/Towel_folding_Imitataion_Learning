@@ -19,13 +19,15 @@
 ## 🧠 Key Contributions
 - **Two-Stage Imitation Learning**  
   - Stage 1 – Flattening policy learned from teleoperation + DAgger corrections  
-  - Stage 2 – Folding policy learned from roughly flattened towel states  
+  - Stage 2 – Folding policy learned from roughly flattened towel states
+  - 
 - **TTCC Model (Tunable Threshold Decision)**  
   - Real-time evaluation of towel geometry to determine transition timing  
   - Thresholds adjustable for different task environments (home vs industrial)
+  - 
 - **Integrated System (Vision + Control + Learning)**  
   - RealSense D415 (top view) + D405 (wrist view)  
-  - ROS 2 Jazzy + MoveIt2 + ACT inference pipeline  
+  - ROS 2 Jazzy + ACT inference pipeline  
   - Compatible with OpenManipulator-Y hardware  
 
 ---
@@ -40,6 +42,17 @@
 TTCC 모델은 이 세 가지 지표를 임계값(threshold)과 비교하여 상태를 분류합니다:
 - `FLATTEN`: 아직 평탄화 필요  
 - `FOLD`: 접기 정책으로 전환  
+
+---
+
+## 🎛️ 조정 가능한 임계값 (Tunable Thresholds)
+| 적용 환경 | Rect Fit (> ) | Height Std (< mm) | Height Range (< mm) |
+|------------|---------------|--------------------|---------------------|
+| 산업 환경 (엄격) | 0.85 | 7 | 18 |
+| 가정/실험 환경 (완화) | 0.77 | 15 | 30 |
+
+→ 사용자는 환경과 목적에 따라 전환 기준 민감도를 조정할 수 있습니다.  
+예: 공장 환경은 정밀 기준, 일반 환경은 완화된 기준 적용
 
 ---
 
