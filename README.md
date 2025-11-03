@@ -4,12 +4,10 @@
 ---
 
 ## 📘 개요  
-본 프로젝트는 **외부 RGB-D 카메라 기반 정량적 시각 지표**를 활용해  
-로봇이 수건을 **자율적으로 평탄화(Flatten)하고 접기(Fold)** 하는  
+본 프로젝트는 *외부 RGB-D 카메라 기반 정량적 시각 지표**를 활용해  로봇이 수건을 **자율적으로 평탄화(Flatten)하고 접기(Fold)** 하는  
 **2단계 모방학습 프레임워크**를 구현한 연구입니다.
 
-핵심은, 기존 연구처럼 “시간이나 단순 시각 피처”가 아니라  
-**정량 지표(metric)** 를 이용해 각 단계의 **종료 조건을 실시간 판단**하고,  
+기존 연구처럼 “시간이나 단순 시각 피처”가 아니라  **정량 지표(metric)** 를 이용해 각 단계의 **종료 조건을 실시간 판단**하고,  
 이를 조정 가능한 형태(**Tunable Terminal Condition**)로 설계한 점입니다.
 
 > 🧩 목표: 로봇이 실시간으로 수건의 상태를 평가하여  
@@ -29,6 +27,19 @@
   - RealSense D415 (top view) + D405 (wrist view)  
   - ROS 2 Jazzy + MoveIt2 + ACT inference pipeline  
   - Compatible with OpenManipulator-Y hardware  
+
+---
+
+### 📊 정량 지표 (Quantitative Visual Metrics)
+| 지표 | 설명 | 의미 |
+|------|------|------|
+| **Rectangularity Fit (Rfit)** | 수건 외곽의 사각형 정합도 | 1에 가까울수록 평탄 |
+| **Height Std (σₕ)** | 표면 높이의 표준편차 | 작을수록 균일 |
+| **Height Range (Δh)** | 표면 전체의 높이 차이 | 작을수록 평평 |
+
+TTCC 모델은 이 세 가지 지표를 임계값(threshold)과 비교하여 상태를 분류합니다:
+- `FLATTEN`: 아직 평탄화 필요  
+- `FOLD`: 접기 정책으로 전환  
 
 ---
 
