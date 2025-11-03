@@ -28,7 +28,7 @@
 
 ## 👁️ 비전 기반 상태 판단 파이프라인  
 <p align="center">
-  <img src="docs/ttcc_pipeline.png" width="700">
+  <img width="1575" height="1181" alt="Image" src="https://github.com/user-attachments/assets/b499651c-3f75-4e4b-9aa8-5ddee834624d" />
 </p>
 
 외부 RGB-D 카메라에서 획득한 깊이 데이터를 이용해  
