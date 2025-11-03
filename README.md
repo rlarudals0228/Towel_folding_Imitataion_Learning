@@ -1,5 +1,5 @@
 # 🧺 Towel Folding Imitation Learning  
-**Two-Stage Imitation-Learning Framework for Deformable-Object Manipulation**
+### Tunable Terminal Condition Classification (TTCC) 기반 장기 비정형체 조작 모방학습
 
 ---
 
