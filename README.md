@@ -113,7 +113,7 @@ TTCC 모델은 이 세 가지 지표를 임계값(threshold)과 비교하여 상
 ## 📬 Contact  
 **김경민** (Kwangwoon University, Dept. of Robotics)  
 📧 rlarudals0228@naver.com  
-🔗 [GitHub Repository](https://github.com/rlarudals0228/Towel_folding_Imitataion_Learning)
+🔗 [GitHub Repository](https://github.com/rlarudals0228)
 
 ---
 
