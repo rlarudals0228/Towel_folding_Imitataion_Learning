@@ -121,8 +121,8 @@ TTCC 모델은 이 세 가지 지표를 임계값(threshold)과 비교하여 상
 - https://github.com/huggingface/lerobot
 - https://github.com/ROBOTIS-GIT/open_manipulator
 
+---
 
-```
 ## 📊 Results (결과)
 
 ![Result_1](result/result_1.gif)
