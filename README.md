@@ -3,12 +3,17 @@
 
 ---
 
-## 🌟 Overview  
-This project implements a **two-stage imitation-learning system** that enables a robotic arm to **flatten and fold a towel autonomously**.  
-The framework integrates **ROS 2**, **RealSense depth sensing**, and **Action Chunking Transformer (ACT)**-based visuomotor policy learning.
+## 📘 개요  
+본 프로젝트는 **외부 RGB-D 카메라 기반 정량적 시각 지표**를 활용해  
+로봇이 수건을 **자율적으로 평탄화(Flatten)하고 접기(Fold)** 하는  
+**2단계 모방학습 프레임워크**를 구현한 연구입니다.
 
-The system is designed to handle **long-horizon deformable-object tasks**, where a robot must decide when to continue flattening or when to switch to folding.  
-To achieve this, a **Tunable Terminal Condition Classification (TTCC)** module analyzes quantitative visual metrics (rectangularity fit, height std, height range) from RGB-D data to make adaptive policy-switching decisions.
+핵심은, 기존 연구처럼 “시간이나 단순 시각 피처”가 아니라  
+**정량 지표(metric)** 를 이용해 각 단계의 **종료 조건을 실시간 판단**하고,  
+이를 조정 가능한 형태(**Tunable Terminal Condition**)로 설계한 점입니다.
+
+> 🧩 목표: 로봇이 실시간으로 수건의 상태를 평가하여  
+> ‘아직 펴야 하는가(FLATTEN)’ 또는 ‘접을 때인가(FOLD)’를 스스로 판단  
 
 ---
 
