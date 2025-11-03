@@ -1,6 +1,5 @@
 # 🤖 Vision-Based Towel Folding Robot  
-### Two-Stage Imitation Learning Framework with TTCC Decision Model
-
+### Vision-Based Tunable Terminal Condition Classification (TTCC)
 ---
 
 ## 📘 프로젝트 개요  
