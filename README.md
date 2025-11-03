@@ -1,4 +1,31 @@
-# Towel_Folding with Imitataion_Learning 
+# 🧺 Towel Folding Imitation Learning  
+**Two-Stage Imitation-Learning Framework for Deformable-Object Manipulation**
+
+---
+
+## 🌟 Overview  
+This project implements a **two-stage imitation-learning system** that enables a robotic arm to **flatten and fold a towel autonomously**.  
+The framework integrates **ROS 2**, **RealSense depth sensing**, and **Action Chunking Transformer (ACT)**-based visuomotor policy learning.
+
+The system is designed to handle **long-horizon deformable-object tasks**, where a robot must decide when to continue flattening or when to switch to folding.  
+To achieve this, a **Tunable Terminal Condition Classification (TTCC)** module analyzes quantitative visual metrics (rectangularity fit, height std, height range) from RGB-D data to make adaptive policy-switching decisions.
+
+---
+
+
+## 🧠 Key Contributions
+- **Two-Stage Imitation Learning**  
+  - Stage 1 – Flattening policy learned from teleoperation + DAgger corrections  
+  - Stage 2 – Folding policy learned from roughly flattened towel states  
+- **TTCC Model (Tunable Threshold Decision)**  
+  - Real-time evaluation of towel geometry to determine transition timing  
+  - Thresholds adjustable for different task environments (home vs industrial)
+- **Integrated System (Vision + Control + Learning)**  
+  - RealSense D415 (top view) + D405 (wrist view)  
+  - ROS 2 Jazzy + MoveIt2 + ACT inference pipeline  
+  - Compatible with OpenManipulator-Y hardware  
+
+---
 
 ### Development Environment 
 - OS: Ubuntu 24.04 LTS (Detail: Linux ubuntu 6.11.0-25-generic #25~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Apr 15 17:20:50 UTC 2 x86_64 x86_64 x86_64 GNU/Linux)
