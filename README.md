@@ -1,29 +1,29 @@
 ## 1. 모방학습 데이터 수집 
----
 
+```
 ### Terminal 1
 ssh root@192.168.0.138
 docker exec -it open_manipulator bash
 source /workspace/colcon_ws/install/setup.bash
 ros2 launch open_manipulator_bringup ai_teleoperation.launch.py
----
-
+```
+```
 ### Terminal 2
 source /opt/ros/jazzy/setup.bash
 ros2 launch realsense2_camera rs_launch.py config_file:="realsense_config.yaml"
----
-
+```
+```
 ### Terminal 3
 source /opt/ros/jazzy/setup.bash
 rqt
----
-
+```
+```
 ### Terminal 4
 source /opt/ros/jazzy/setup.bash
 cd ~/colcon_ws
 source install/setup.bash
 ros2 launch ros2_lerobot create_datasheet.launch.py
----
+```
 
 ## 2. 수집한 데이터 train & evaluation 
 ### Visualize
