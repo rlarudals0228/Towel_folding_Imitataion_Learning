@@ -70,13 +70,9 @@ TTCC 모델은 이 세 가지 지표를 임계값(threshold)과 비교하여 상
 → 사용자는 환경과 목적에 따라 전환 기준 민감도를 조정할 수 있습니다.  
 예: 공장 환경은 정밀 기준, 일반 환경은 완화된 기준 적용
 
-<img width="575" height="342" alt="Image" src="https://github.com/user-attachments/assets/4d0f2fc2-ac3e-4900-8244-7489ceb34859" />
+<img width="575" height="342" alt="Image" src="https://github.com/user-attachments/assets/4d0f2fc2-ac3e-4900-8244-7489ceb34859" /> <img width="613" height="379" alt="Image" src="https://github.com/user-attachments/assets/6678d806-efde-4484-96bb-bcb0153d4d70" />
 
-<img width="613" height="379" alt="Image" src="https://github.com/user-attachments/assets/6678d806-efde-4484-96bb-bcb0153d4d70" />
-
-<img width="524" height="387" alt="Image" src="https://github.com/user-attachments/assets/15cd8d9d-72e6-4e5a-9a5e-6aef17b2a0ce" />
-
-<img width="552" height="388" alt="Image" src="https://github.com/user-attachments/assets/386a2874-03c1-4ffc-afba-2c01179489f8" />
+<img width="524" height="387" alt="Image" src="https://github.com/user-attachments/assets/15cd8d9d-72e6-4e5a-9a5e-6aef17b2a0ce" /><img width="552" height="388" alt="Image" src="https://github.com/user-attachments/assets/386a2874-03c1-4ffc-afba-2c01179489f8" />
 ---
 
 ## 🤖 모방학습 기반 제어 구조  
