@@ -28,7 +28,7 @@
 
 ## 👁️ 비전 기반 상태 판단 파이프라인  
 <p align="center">
-  <img width="577" height="432" alt="Image" src="https://github.com/user-attachments/assets/a7d86934-ea2c-4809-8df6-3c269411d2a3" />
+  <img width="3150" height="1476" alt="Image" src="https://github.com/user-attachments/assets/330836ed-2784-49e8-b8eb-14b59c57d0f7" />
 </p>
 
 외부 RGB-D 카메라에서 획득한 깊이 데이터를 이용해  
