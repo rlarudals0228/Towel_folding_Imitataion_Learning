@@ -16,7 +16,7 @@
 
 ## 🦾 시스템 구성  
 <p align="center">
-  <img src="docs/system_setup.png" width="650">
+  <img width="1575" height="1181" alt="Image" src="https://github.com/user-attachments/assets/b499651c-3f75-4e4b-9aa8-5ddee834624d" />
 </p>
 
 - **로봇:** ROBOTIS OpenManipulator-Y (6자유도 + 1자유도 그리퍼)  
@@ -28,7 +28,7 @@
 
 ## 👁️ 비전 기반 상태 판단 파이프라인  
 <p align="center">
-  <img width="1575" height="1181" alt="Image" src="https://github.com/user-attachments/assets/b499651c-3f75-4e4b-9aa8-5ddee834624d" />
+  <img width="577" height="432" alt="Image" src="https://github.com/user-attachments/assets/a7d86934-ea2c-4809-8df6-3c269411d2a3" />
 </p>
 
 외부 RGB-D 카메라에서 획득한 깊이 데이터를 이용해  
