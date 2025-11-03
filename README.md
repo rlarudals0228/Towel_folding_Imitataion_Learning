@@ -1,4 +1,4 @@
-# 🤖 Vision-Based Towel Folding Robot  
+# 🤖 Vision-Based Towel Folding Robot with Imitation Learning  
 ### Vision-Based Tunable Terminal Condition Classification (TTCC)
 ---
 
