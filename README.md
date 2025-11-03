@@ -1,5 +1,5 @@
-# 🧺 Towel Folding Robot using Imitation Learning  
-### Vision-based Two-Stage Policy Switching Framework (TTCC)
+# 🤖 Vision-Based Towel Folding Robot  
+### Two-Stage Imitation Learning Framework with TTCC Decision Model
 
 ---
 
@@ -14,7 +14,7 @@
 
 ---
 
-## 🦾 시스템 구성  
+## ⚙️ 시스템 구성  
 <p align="center">
   <img width="1575" height="1181" alt="Image" src="https://github.com/user-attachments/assets/b499651c-3f75-4e4b-9aa8-5ddee834624d" />
 </p>
@@ -48,6 +48,7 @@
 그렇지 않으면 “평탄화(Flatten)”를 반복 수행합니다.
 
 ---
+
 ### 📊 정량 지표 (Quantitative Visual Metrics)
 | 지표 | 설명 | 의미 |
 |------|------|------|
@@ -117,7 +118,7 @@ TTCC 모델은 이 세 가지 지표를 임계값(threshold)과 비교하여 상
 
 ---
 
-### Reference
+### 📚 Reference
 - https://github.com/huggingface/lerobot
 - https://github.com/ROBOTIS-GIT/open_manipulator
 
